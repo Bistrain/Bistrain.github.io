@@ -1,0 +1,249 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Eduardo Bistrain</title>
+</head>
+
+<body>
+    <!-- Encabezado -->
+    <header id="header">
+        <h1>Bienvenido !</h1>
+        <nav id="nav" class="">
+            <ul id="links">
+                <li>
+                    <a href="#inicio" onclick="seleccionar(0)">Inicio</a>
+                    <span class="linea seleccionado"></span>
+                </li>
+                <li>
+                    <a href="#sobremi" onclick="seleccionar(1)">Sobre Mi</a>
+                    <span class="linea"></span>
+                </li>
+                <li>
+                    <a href="#skills" onclick="seleccionar(2)">Skills</a>
+                    <span class="linea"></span>
+                </li>
+                <li>
+                    <a href="#portfolio" onclick="seleccionar(3)">Portafolio</a>
+                    <span class="linea"></span>
+                </li>
+                <li>
+                    <a href="#contacto" onclick="seleccionar(4)">Contacto</a>
+                    <span class="linea"></span>
+                </li>
+            </ul>
+        </nav>
+        <div class="nav-bar" id="nav-bar"><i class="fa-solid fa-bars"></i></div>
+    </header>
+
+    <!-- Inicio -->
+    <section id="inicio">
+        <div class="contenedor-img">
+            <div class="imagen"></div>
+        </div>
+        <div class="contenido">
+            <div class="info">
+                <h3>Ing. Eduardo Bistrain</h3>
+                <span>Front End Developer</span>
+                <div class="redes">
+                    <a draggable="false" href="https://github.com/Bistrain" target="_blank" rel="noopener noreferrer" class="contact__link">
+                        <i class="fab fa-github-alt contact__icon fa-1x" aria-hidden="true"></i>
+                    </a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a class="contact__link" href="mailto:bistrain12@gmail.com" target="_blank" rel="noopener noreferrer">
+                        <i class="fas fa-envelope contact__icon fa-1x" aria-hidden="true"></i>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    
+    <!-- sobre mi -->
+    <section id="sobremi">
+        <div class="contenido">
+            <div class="left">
+                <div class="contenedor-img">
+                    <img src="foto/fondo2.jpg" alt="foto desarrollador">
+                </div>
+            </div>
+            <div class="right">
+                <div class="info">
+                    <span>SOBRE MI</span>
+                    <h3>Diseñador Front End</h3>
+                    <p>Hola! Me llamo Eduardo Bistrain y soy un ingeniero en electrónica apasionado por la ciencia que ahora quiere reinventarse
+                        y seguir creciendo dentro del mundo de la programación front-end.</p>
+                     <p>
+                        Soy desarrollador web front end desde marzo de 2022. La curiosidad por la programación me llevó incursionarme a FreecodeCamp y ahora,
+                        tras meses formándome, estoy listo para dar lo mejor de mi mismo y seguir creciendo dentro del sector tecnológico.</p>
+                     <p>
+                        Me encanta este sector, y para mí cada proyecto es un nuevo reto que afronto con gran entusiasmo, ganas de aprender y me implico al máximo para dar lo mejor de mí mismo.</p>
+                     <!-- <a href="#" class="btn-descargar">Descargar CV</a> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Skills -->
+    <section id="skills">
+        <div class="contenido">
+            <div class="left">
+                <h3>Skills</h3>
+                <p>Estoy especializado en diseño y desarrollo web con <b>HTML5</b>, <b>CSS3</b> y <b>JavaScript</b>. Tengo experiencia desarrolando aplicaciones web y nunca paro de buscar y prepararme para nuevas tecnologias web.</p>
+            </div>
+            <div class="right">
+                <div class="contenedor-skills" id="skills">
+                    <div class="skill">
+                        <div class="info">
+                            <img class="imagen-skills" src="https://patriciasr.github.io/portfolio/static/media/html.c9831d46.png" alt="imagen html5">
+                        </div>
+                    </div>
+    
+                    <div class="skill">
+                        <div class="info">
+                            <img class="imagen-skills" src="https://patriciasr.github.io/portfolio/static/media/CSS3.0b0f71d9.png" alt="imagen CSS3">
+                        </div>
+                    </div>
+                    
+                    <div class="skill">
+                        <div class="info">
+                            <img class="imagen-skills" src="https://patriciasr.github.io/portfolio/static/media/js.a00831a7.png" alt="imagen javascript">
+                        </div>
+                    </div>
+    
+                    <div class="skill">
+                        <div class="info">
+                            <img class="imagen-skills" src="https://patriciasr.github.io/portfolio/static/media/react.47ce6e77.png" alt="imagen react">
+                        </div>
+                    </div>
+    
+                    <div class="skill">
+                        <div class="info">
+                            <img class="imagen-skills" src="https://patriciasr.github.io/portfolio/static/media/git.b23d8b67.png" alt="imagen git">
+                        </div>
+                    </div>
+    
+                    <div class="skill">
+                        <div class="info">
+                            <img class="imagen-skills" src="https://patriciasr.github.io/portfolio/static/media/github.b71bc541.png" alt="imagen github">
+                        </div>
+                    </div>
+    
+                    <div class="skill">
+                        <div class="info">
+                            <img class="imagen-skills" src="https://brandlogos.net/wp-content/uploads/2021/09/bootstrap-logo.png" alt="imagen bootstrap">
+                        </div>
+                    </div>
+    
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Portfolio -->
+    <section id="portfolio">
+        <div class="contenido">
+            <div class="encabezado-portfolio">
+                <div class="left">
+                    <span>PORTFOLIO</span>
+                    <h3>Mis Trabajos</h3>
+                </div>
+                <div class="right" id="categorias">
+                    <a href="javascript:void(0)" onclick="cambiarCategoria( 'all',0)" class="activada">Todos</a>
+                    <a href="javascript:void(0)" onclick="cambiarCategoria( 'design',1)">Diseño</a>
+                    <a href="javascript:void(0)" onclick="cambiarCategoria( 'branding',2)">Paginas</a></a>
+                </div>
+            </div>
+            <div class="galeria" id="galeria">
+                <div class="proyecto design">
+                    <img src="foto/foto1.jpg" alt="">
+                    <h3>Proyecto 1</h3>
+                </div>
+
+                <div class="proyecto branding">
+                    <img src="foto/foto2.jpg" alt="">
+                    <h3>Proyecto 2</h3>
+                </div>
+
+                <div class="proyecto design">
+                    <img src="foto/foto3.jpg" alt="">
+                    <h3>Proyecto 3</h3>
+                </div>
+
+                <div class="proyecto branding">
+                    <img src="foto/foto4.jpg" alt="">
+                    <h3>Proyecto 4</h3>
+                </div>
+
+                <div class="proyecto design">
+                    <img src="foto/foto5.jpg" alt="">
+                    <h3>Proyecto 5</h3>
+                </div>
+
+                <div class="proyecto branding">
+                    <img src="" alt="">
+                    <h3>Proyecto 6</h3>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+    
+
+    <!-- Contacto -->
+    <section id="contacto">
+        <div class="shape">
+            <img src="img/paper.svg" alt="">
+        </div>
+        <div class="background">
+            <div class="info">
+                <h2>Contactame!</h2>
+                <P>¿Quieres saber más mí?</P>
+                <P>Si estás buscando un desarrollador frontend o simplemente quieres conocerme más, contáctame y hablamos.</P>
+            </div>
+            <div class="contacto-iconos">
+                <a draggable="false" href="https://github.com/Bistrain" target="_blank" rel="noopener noreferrer" class="contact__link">
+                    <i class="fab fa-github-alt contact__icon fa-2x" aria-hidden="true"></i>
+                    <span class="link__text">@Bistrain</span>
+                </a>
+                <a class="contact__link" href="mailto:bistrain12@gmail.com" target="_blank" rel="noopener noreferrer">
+                    <i class="fas fa-envelope contact__icon fa-2x" aria-hidden="true"></i>
+                    <span class="link__text">bistrain12@gmail.com</span>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-whatsapp fa-2x"></i>
+                    <span class="link__text">7351470500</span>
+                </a>
+            </div>
+
+            <div class="page-footer">
+                <span class="footer__text">Diseñado y desarrollado por </span>
+                <a class="footer-link" href="https://github.com/Bistrain" target="_blank" rel="noopener noreferrer">@Bistrain</a>
+            </div>
+        </div>
+    </section>
+
+    
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
